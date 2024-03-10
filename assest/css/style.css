@@ -1,0 +1,52 @@
+.imagen {
+  width: 400px;
+  height: 300px;
+  border: 2px solid red;
+}
+
+.contenido {
+  width: auto;
+  text-align: center;
+}
+.general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenido-stickres {
+  display: flex;
+  gap: 10px;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.stickers img {
+  width: 100px;
+  height: 180px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid blue;
+}
+
+.contenido-cont {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px;
+  padding: 10px;
+}
+
+.contenido-contrasena {
+  display: flex;
+
+  margin: 10px;
+  padding: 10px;
+}

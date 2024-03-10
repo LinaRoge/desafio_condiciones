@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assest/css/style.css" />
+    <title>Borde de imagen</title>
+  </head>
+  <body>
+    <div class="contenido">
+      <h2>Haz click sobre la imagen para agregar o quitar bordes</h2>
+      <img
+        src="/assest/img/fondo.jpeg"
+        alt=""
+        class="imagen"
+        onclick="
+    bordes = document.querySelector('.imagen')
+  if(activo===false){
+      bordes.style.border = '2px solid red'
+     activo=true
+  } else {
+      bordes.style.border = 'none'
+      activo=false
+  }"
+      />
+    </div>
+    <script src="/assest/js/style.js"></script>
+  </body>
+</html>
